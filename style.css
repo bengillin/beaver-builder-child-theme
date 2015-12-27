@@ -10,32 +10,50 @@ template: bb-theme
 
 /* Beaver Builder Theme - Page Elements */
 
-/* Page Wrapper */
-.fl-page {}
+    /* Page Wrapper */
+    .fl-page {}
 
-/* Top Bar */
-.fl-page-bar {}
+    /* Top Bar */
+    .fl-page-bar {}
 
-/* Fixed Header */
-.fl-page-header.fl-page-header-fixed {}
+    /* Fixed Header */
+    .fl-page-header.fl-page-header-fixed {}
 
-/* Header */
-fl-page-header.fl-page-header-primary {}
+    /* Header */
+    fl-page-header.fl-page-header-primary {}
 
-/* Content Area */
-.fl-page-content {}
+    /* Content Area */
+    .fl-page-content {}
 
-/* Footer Widgets */
-.fl-page-footer-widgets {}
+    /* Footer Widgets */
+    .fl-page-footer-widgets {}
 
-/* Footer */
-.fl-page-footer {}
+    /* Footer */
+    .fl-page-footer {}
 
-/* Right Nav */
-.fl-page-nav-right .fl-page-nav {}
+    /* Right Nav */
+    .fl-page-nav-right .fl-page-nav {}
 
-/* Bottom Nav */
-.fl-page-nav-bottom .fl-page-nav {}
+    /* Bottom Nav */
+    .fl-page-nav-bottom .fl-page-nav {}
 
-/* Centered Nav */
-.fl-page-nav-center .fl-page-nav {}
+    /* Centered Nav */
+    .fl-page-nav-center .fl-page-nav {}
+
+/* Customizations */
+    
+    /* Search Field */
+    .fl-page-nav-search form {
+        background-color: none;
+        border-top: none;
+        display: none;
+        padding: 0px;
+        position: absolute;
+        right: 30px;
+        top: 6px;
+        width: 400px;
+        z-index: 1000;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
