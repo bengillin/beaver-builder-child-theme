@@ -1,0 +1,41 @@
+/*
+Theme Name: Ben's Beaver Builder Child Theme
+Theme URI: http://www.bengillin.com
+Version: 1.0
+Description: Starter Beaver Builder child theme for custom development.
+Author: Ben Gillin
+Author URI: http://www.bengillin.com
+template: bb-theme
+*/
+
+/* Beaver Builder Theme - Page Elements */
+
+/* Page Wrapper */
+.fl-page {}
+
+/* Top Bar */
+.fl-page-bar {}
+
+/* Fixed Header */
+.fl-page-header.fl-page-header-fixed {}
+
+/* Header */
+fl-page-header.fl-page-header-primary {}
+
+/* Content Area */
+.fl-page-content {}
+
+/* Footer Widgets */
+.fl-page-footer-widgets {}
+
+/* Footer */
+.fl-page-footer {}
+
+/* Right Nav */
+.fl-page-nav-right .fl-page-nav {}
+
+/* Bottom Nav */
+.fl-page-nav-bottom .fl-page-nav {}
+
+/* Centered Nav */
+.fl-page-nav-center .fl-page-nav {}
