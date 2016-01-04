@@ -20,7 +20,7 @@ template: bb-theme
     .fl-page-header.fl-page-header-fixed {}
 
     /* Header */
-    fl-page-header.fl-page-header-primary {}
+    .fl-page-header.fl-page-header-primary {}
 
     /* Content Area */
     .fl-page-content {}
